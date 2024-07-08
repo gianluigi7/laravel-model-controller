@@ -1,3 +1,20 @@
-body {
- background-color: green;
+
+.container {
+    max-width: 996px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+li {
+    width: calc(100% / 2 - 182px);
+    margin: 90px;
+    border: 1px solid black;
+}
+
+h1, li {
+    text-align: center;
 }
